@@ -1,0 +1,102 @@
+/* Basic reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #FDF5E6; /* Light pastel yellow background */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FFB6C1; /* Soft pastel pink */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #EED5D2; /* Lighter pink for hover */
+}
+
+.hero {
+    background-color: #E6E6FA; /* Lavender */
+    padding: 2em;
+    text-align: center;
+    border-bottom: 8px solid #FFB6C1; /* Matching header color */
+    border-radius: 15px; /* Rounded corners for the hero box */
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #FFB6C1;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 15px 15px 0 0; /* Rounded top corners */
+}
+
+button {
+    background-color: #FFDAB9; /* Peach puff */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 15px; /* Fully rounded buttons */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FFC0CB; /* Light pink */
+}
