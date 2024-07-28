@@ -9,7 +9,8 @@ document.getElementById('fetchData').addEventListener('click', async function() 
         data.forEach(item => {
             const para = document.createElement('p');
             para.innerText = item.fact; 
-            displayDiv.appendChild(para);
+            displayDiv.appendChild(para);// hehehe
+            
         });
     } catch (error) {
         console.error('Error fetching data:', error);
